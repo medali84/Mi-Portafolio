@@ -1,0 +1,28 @@
+
+
+.mi-nombre{
+    font-family: fantasy;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.profesion{
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+
+.icon-button {
+    border: none; 
+    padding: 30px; 
+    background-color: transparent; 
+    
+  }
+  
+ 
+  .icon {
+    color: #928a97; 
+    
+  }
+  

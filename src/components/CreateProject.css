@@ -1,0 +1,38 @@
+/* CreateProject.css */
+
+.create-project-container {
+    text-align: center;
+    font-family: Arial;
+    padding: 20px;
+    margin-left: 100vh;
+    margin-top: 125vh;
+  }
+  
+  .create-project-title {
+    font-size: 24px;
+    color: #928A97;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .form-input {
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+  }
+  
+  .form-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

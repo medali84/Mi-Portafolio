@@ -1,0 +1,50 @@
+
+
+.contenedor-edit {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 100vh;
+    margin-top: 125vh;
+  }
+  
+  .edit-project h1 {
+    font-size: 24px;
+    color: #928A97;
+  }
+  
+  .edit-project form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-project label {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .edit-project input[type="text"],
+  .edit-project input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-project button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-project button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

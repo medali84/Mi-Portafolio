@@ -1,0 +1,36 @@
+.common-component {
+    width: 80vw;
+    height: auto;
+    padding: 30px;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-radius: 10px;
+    position: absolute;
+    
+
+  }
+
+  
+@media (min-width: 768px) {
+  .common-component {
+      width: 70vw;
+      padding: 30px;
+      margin-left: 10%;
+    margin-top: 7%;
+      
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .common-component {
+      width: 80vw;
+      padding: 40px;
+      margin-left: 20%;
+    margin-top: 15%;
+      
+  }
+}
+
+
+  

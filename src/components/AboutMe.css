@@ -1,0 +1,49 @@
+
+
+.aboutme-titulo{
+    color: #F44336;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.aboutme-img{
+    display: flex;
+    width: 55vh;
+    clip-path: polygon(
+        0% 0%,      /* esquina superior izquierda */
+        100% 0%,    /* esquina superior derecha */
+        100% 85%,   /* esquina inferior derecha cortada */
+        0% 100%     /* esquina inferior izquierda */
+    );
+        
+}
+
+.aboutme-datos{
+    padding: 30px;
+    font-size: 16px;
+}
+
+.aboutme-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.aboutme-titulo{
+    color: #F44336;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+
+.aboutme-img-puntos{
+    width: 20vh;
+    margin-top: -35vw;
+}
+.about-content{
+    display: flex;     
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}
+
+
+  

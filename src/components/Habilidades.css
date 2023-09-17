@@ -1,0 +1,84 @@
+
+/* .habilidades-titulo{
+    display: flex;
+    color: #F44336;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.habilidades-imagen {
+    display: flex;
+    width: 40vh; 
+}
+
+.habilidades-rosco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.habilidades-datos {
+    
+    padding: 30px;
+    font-size: 16px;
+}
+
+.common-component {
+    display: flex;
+    align-items: center;  
+    gap: 20px;
+  } */
+
+  .common-component {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column; /* Esto asegura que los hijos de este contenedor estén alineados verticalmente */
+    gap: 10px;
+    width: 60%;
+    margin: 5%; /* Espacio entre los elementos dentro del contenedor */
+}
+
+.habilidades-titulo{
+    color: #F44336;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+
+}
+
+.habilidades-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.habilidades-rosco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.habilidades-imagen {
+    width: 55vh; border-radius: 5px;
+
+    clip-path: polygon(
+        0% 0%,   /* esquina superior izquierda */
+        100% 0%, /* esquina superior derecha */
+        100% 100%, /* esquina inferior derecha */
+        0% 85%  /* esquina inferior izquierda cortada */
+    );
+    filter: grayscale(90%);
+}
+
+
+
+
+
+

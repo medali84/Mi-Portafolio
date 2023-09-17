@@ -1,0 +1,53 @@
+
+.enlaces, .aboutme, .habilidades, .showproject {
+  margin-bottom: 50vh;
+}
+
+.enlaces{
+  margin-top: -40vh;
+  margin-left: -30vh;
+}
+
+.aboutme{
+  margin-top: 70vh;
+  margin-left: -30vh;
+}
+
+.habilidades{
+  margin-top: -50vh;
+  margin-left: -30vh;
+}
+
+.showproject{
+  margin-top: 50vh;
+  margin-left: -30vh;
+}
+
+.formulariocontacto{
+  margin-top: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 90vh;
+  margin-left: 30vw;
+ 
+}
+
+
+
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    min-height: 610vh; 
+    width: 100%;
+  
+    background-image: url('public/imgs/Desktop.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top, center, bottom, center bottom;
+    background-size: cover;
+}
+

@@ -1,0 +1,103 @@
+
+
+
+/*  .fondo-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+    justify-content: center;   
+    align-items: center; 
+    
+  } */
+
+  /* Centrar horizontalmente */
+  /* Centrar verticalmente */
+  
+/*   .fondo-image {
+    width: 100%; 
+    height: 100%; 
+    background-size: contain;
+    background-position: center; 
+    
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1; 
+  } */
+
+
+
+
+/*   .fondo-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .fondo-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('public/imgs/fondo3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+/*   body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/imgs/img1.jpg'), url('/imgs/img2.jpg'), url('/imgs/img3.jpg'), url('/imgs/img4.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top, center, bottom, center bottom;
+    z-index: -1;
+  }
+  
+
+  .fondo-container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .fondo-container img {
+    width: 100%;
+    height: auto;
+  }
+   */
+  
