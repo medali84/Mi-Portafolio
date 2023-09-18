@@ -4,27 +4,27 @@
 }
 
 .enlaces{
-  margin-top: -40vh;
-  margin-left: -30vh;
+  margin-top: -30vw;
+  margin-left: -15vw;
 }
 
 .aboutme{
-  margin-top: 70vh;
-  margin-left: -30vh;
+  margin-top: 30vw;
+  margin-left: -15vw;
 }
 
 .habilidades{
-  margin-top: -50vh;
-  margin-left: -30vh;
+  margin-top: -30vw;
+  margin-left: -15vw;
 }
 
 .showproject{
-  margin-top: 50vh;
-  margin-left: -30vh;
+  margin-top: 20vw;
+  margin-left: -13vw;
 }
 
 .formulariocontacto{
-  margin-top: 90vh;
+  margin-top: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;

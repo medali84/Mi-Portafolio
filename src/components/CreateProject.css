@@ -1,4 +1,3 @@
-/* CreateProject.css */
 
 .create-project-container {
     text-align: center;
@@ -29,7 +28,7 @@
   }
   
   .form-button {
-    background-color: blue;
+    background-color: #928A97;
     color: white;
     border: none;
     padding: 10px 20px;

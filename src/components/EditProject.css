@@ -35,7 +35,7 @@
   }
   
   .edit-project button[type="submit"] {
-    background-color: #007bff;
+    background-color: #928A97;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,6 +45,6 @@
   }
   
   .edit-project button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #928A97;
   }
   

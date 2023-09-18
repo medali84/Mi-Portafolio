@@ -1,34 +1,3 @@
-
-/* .habilidades-titulo{
-    display: flex;
-    color: #F44336;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.habilidades-imagen {
-    display: flex;
-    width: 40vh; 
-}
-
-.habilidades-rosco {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-.habilidades-datos {
-    
-    padding: 30px;
-    font-size: 16px;
-}
-
-.common-component {
-    display: flex;
-    align-items: center;  
-    gap: 20px;
-  } */
-
   .common-component {
     display: flex;
     align-items: center;
@@ -37,10 +6,10 @@
 
 .left-content {
     display: flex;
-    flex-direction: column; /* Esto asegura que los hijos de este contenedor estén alineados verticalmente */
+    flex-direction: column; 
     gap: 10px;
     width: 60%;
-    margin: 5%; /* Espacio entre los elementos dentro del contenedor */
+    margin: 5%; 
 }
 
 .habilidades-titulo{

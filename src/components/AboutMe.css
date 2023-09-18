@@ -1,49 +1,67 @@
-
-
-.aboutme-titulo{
+.aboutme-titulo {
     color: #F44336;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-.aboutme-img{
+.aboutme-img {
     display: flex;
     width: 55vh;
-    clip-path: polygon(
-        0% 0%,      /* esquina superior izquierda */
-        100% 0%,    /* esquina superior derecha */
-        100% 85%,   /* esquina inferior derecha cortada */
-        0% 100%     /* esquina inferior izquierda */
-    );
-        
+    clip-path: polygon(0% 0%,
+            /* esquina superior izquierda */
+            100% 0%,
+            /* esquina superior derecha */
+            100% 85%,
+            /* esquina inferior derecha cortada */
+            0% 100%
+            /* esquina inferior izquierda */
+        );
+
 }
 
-.aboutme-datos{
+.aboutme-datos {
     padding: 30px;
     font-size: 16px;
 }
 
-.aboutme-texto{
+.aboutme-texto {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.aboutme-titulo{
+.aboutme-titulo {
     color: #F44336;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 34px;
 }
 
-.aboutme-img-puntos{
+.aboutme-img-puntos {
     width: 20vh;
     margin-top: -35vw;
 }
-.about-content{
-    display: flex;     
-    justify-content: space-between; 
-    align-items: center; 
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
+.descargar-cv button {
+    border: none;
+    background-color: #F44336;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* estilo del cursor al pasar sobre el botón */
+    transition: 0.3s;
+    /* animación suave al cambiar estilos, opcional */
+}
 
-  
+.descargar-cv button:hover {
+    background-color: #928A97;
+    /* un tono diferente para el hover */
+
+}
