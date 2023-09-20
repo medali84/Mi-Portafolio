@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 import { BrowserRouter as RouterProvider } from 'react-router-dom';
 
-import { router } from './router'
+import { router } from './router.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
