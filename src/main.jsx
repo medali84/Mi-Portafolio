@@ -1,7 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom';
 
-import { RouterProvider } from 'react-router-dom'
+
+import { BrowserRouter as RouterProvider } from 'react-router-dom';
+
 import { router } from './router'
 
 
