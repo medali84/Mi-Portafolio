@@ -1,28 +1,23 @@
-import { useEffect, useState } from "react"
-import axios from "axios"
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import axios from "axios";
 import EditProject from "../components/EditProjrct";
 
-import "./CommonStyles.css"
-import CreateProject from "../components/CreateProject"
-import "./ShowProject.css"
+import "./CommonStyles.css";
+import CreateProject from "../components/CreateProject";
+import "./ShowProject.css";
 
-const url = "http://localhost:8080/api/v1/proyectos"
+const url = "http://localhost:8080/api/v1/proyectos";
 
 const ShowProject = () => {
-
-  const [projects, setProjects] = useState([])
-  const [showForm, setShowForm] = useState(false)
-  const navigate = useNavigate();
+  const [projects, setProjects] = useState([]);
+  const [showForm, setShowForm] = useState(false);
   const [showUpdateForm, setShowUpdateForm] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-
-
   useEffect(() => {
-    getAllProjects()
-  }, [])
+    getAllProjects();
+  }, []);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
@@ -35,7 +30,6 @@ const ShowProject = () => {
   const getAllProjects = async () => {
     try {
       const response = await axios.get(url);
-
       setProjects(response.data);
     } catch (error) {
       console.error("Error al obtener los proyectos:", error);
