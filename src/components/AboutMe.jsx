@@ -1,5 +1,7 @@
 import "./AboutMe.css"
 import "./CommonStyles.css"
+import AboutMeImg from "/imgs/AboutMe.jpg"
+
 
 export const AboutMe = () => {
   return (
@@ -11,7 +13,7 @@ export const AboutMe = () => {
             </div>
             
             
-            <img className="aboutme-img" src="public\imgs\AboutMe.jpg" alt="" />
+            <img className="aboutme-img" src={AboutMeImg} alt="" />
             
             <div className="aboutme-datos">
             <h2 className="aboutme-titulo">Sobre mi</h2>
