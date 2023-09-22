@@ -6,7 +6,7 @@ import "./CommonStyles.css";
 import CreateProject from "../components/CreateProject";
 import "./ShowProject.css";
 
-const url = "http://localhost:8080/api/v1/proyectos";
+const url = "https://mi-portafolio-backend-production.up.railway.app/api/v1/proyectos";
 
 const ShowProject = () => {
   const [projects, setProjects] = useState([]);

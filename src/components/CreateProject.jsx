@@ -80,7 +80,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./CreateProject.css"; 
 
-const url = "http://localhost:8080/api/v1/proyectos";
+const url = "https://mi-portafolio-backend-production.up.railway.app/api/v1/proyectos";
 
 const CreateProject = ({ onCloseForm }) => {
   const [nombre, setNombre] = useState("");
