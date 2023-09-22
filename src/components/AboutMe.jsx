@@ -1,6 +1,6 @@
 import "./AboutMe.css"
 import "./CommonStyles.css"
-import AboutMeImg from "/imgs/AboutMe.jpg"
+import AboutMeImg from "../assets/AboutMe.jpg"
 
 
 export const AboutMe = () => {
